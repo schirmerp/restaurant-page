@@ -1,0 +1,96 @@
+*{
+    font-family: 'Bebas Neue', cursive;
+}
+body {
+    display: grid;
+    grid-template-areas:
+    "b b c"
+    "a a a"
+    ;
+    background-color: #16ffbd;
+}
+.info{
+    font-size: x-large;
+    border: 10px solid #c34271;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 10%;
+    transform: translate(-50%, -50%);
+    background-color: #f070a1;
+    box-shadow: 10px 10px 5px #12c998;
+}
+.infoText{
+    font-size: large;
+    color: black;
+    
+}
+.btn1 {
+    position: absolute;
+    bottom: 2em;
+    right: 10em;
+    height: 4em;
+    width: 10em; 
+    color: black;
+    background-color: #f070a1;
+    font-weight: 900;
+    border-radius: 10%;
+}
+.btn2 {
+    position: absolute;
+    bottom: 2em;
+    right : 0em;
+    height: 4em;
+    width: 10em; 
+    color: black;
+    background-color: #f070a1;
+    font-weight: 900;
+    border-radius: 10%;
+}
+.btn3 {
+    position: absolute;
+    bottom: 2em;
+    right : 20em;
+    height: 4em;
+    width: 10em; 
+    color: black;
+    background-color: #f070a1;
+    font-weight: 900;
+    border-radius: 10%;
+}
+.text {
+    grid-area: a;
+    font-size: x-large;
+    
+}
+.title {
+    grid-area: b;
+    font-size: 5em;
+    color: #439f76;
+    text-shadow: 1px 1px 2px black, 0 0 25px #f1047b, 0 0 5px #f501acf1;
+}
+
+.food {
+    grid-area: c;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    background-color: #16ffbd;
+    
+    
+}
+
+.menu-item {
+    background-color: #f070a1;
+    border: 10px solid #439f76;
+    border-radius: 10%;
+    width: 10em;
+    height: 10em;
+    font-size: larger;
+    font-weight: 600;
+    box-shadow: 10px 10px 5px #12c998;
+
+}
